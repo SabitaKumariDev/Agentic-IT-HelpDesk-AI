@@ -1,0 +1,56 @@
+/* App-level styles */
+
+.markdown-response h1,
+.markdown-response h2,
+.markdown-response h3 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.markdown-response h1 { font-size: 1.25rem; }
+.markdown-response h2 { font-size: 1.125rem; }
+.markdown-response h3 { font-size: 1rem; }
+
+.markdown-response p {
+  margin-bottom: 0.75em;
+  line-height: 1.7;
+}
+
+.markdown-response ul,
+.markdown-response ol {
+  margin-left: 1.5em;
+  margin-bottom: 0.75em;
+}
+
+.markdown-response li {
+  margin-bottom: 0.35em;
+  line-height: 1.6;
+}
+
+.markdown-response code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85em;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+}
+
+.markdown-response pre {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1em;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-bottom: 1em;
+}
+
+.markdown-response strong {
+  font-weight: 600;
+  color: #e4e4e7;
+}
+
+.markdown-response hr {
+  border-color: rgba(255, 255, 255, 0.1);
+  margin: 1.5em 0;
+}
