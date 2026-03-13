@@ -87,3 +87,25 @@ frontend/node_modules/.cache/default-development/0.pack
 # Environment files
 *.env
 *.env.*
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Node
+node_modules/
+npm-debug.log
+
+# Frontend build
+frontend/build/
+frontend/dist/
+
+# Environment
+.env.local
+.env.production
+
+# OS
+.DS_Store
+Thumbs.db
