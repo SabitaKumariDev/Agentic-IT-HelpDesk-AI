@@ -158,7 +158,6 @@ After login, verify:
 Test the 4 new documents added in the expanded knowledge base:
 
 | Query | Expected Top Source |
-|---|---|
 | `My printer is stuck and not printing` | Printer and Printing Troubleshooting (kb-009) |
 | `Teams meeting no sound` | Microsoft Teams Setup and Troubleshooting (kb-010) |
 | `OneDrive files not syncing` | OneDrive and SharePoint File Sync (kb-011) |
