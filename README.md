@@ -88,6 +88,60 @@ The Failure Analysis Engine:
    - Improve document chunking strategies
    - Refine prompt templates for specific intents
 
+
+Here are the main features of Agentic AI IT Support Assistant:
+
+1. Intelligent Query Understanding
+
+The system understands what the user is asking and classifies the intent (e.g., knowledge search, troubleshooting, or ticket creation).
+
+2. AI-Powered Knowledge Search (RAG)
+
+It searches an internal IT knowledge base and retrieves the most relevant documents to answer questions accurately.
+
+3. Agentic Workflow / Task Orchestration
+
+The AI follows a decision pipeline (like a workflow) to determine the best action—provide information, troubleshoot an issue, or create a ticket.
+
+4. Automated Troubleshooting
+
+For common issues (VPN, WiFi, password reset, etc.), the assistant gives step-by-step troubleshooting guidance.
+
+5. Ticket Creation Tool
+
+If the problem cannot be resolved automatically, the system can create an IT support ticket with the issue details.
+
+6. Query Rewriting for Better Search
+
+If a user’s question is unclear, the system rewrites it to improve document retrieval and answer accuracy.
+
+7. Response Quality Evaluation
+
+The system checks whether the generated answer is actually supported by the retrieved documents to reduce hallucinations.
+
+8. Safe Fallback Mechanism
+
+If the AI is not confident in the answer, it responds cautiously and recommends creating a support ticket instead of guessing.
+
+9. User Feedback Collection
+
+Users can mark responses as helpful or not helpful, which helps the system learn where it fails.
+
+10. Self-Improving Feedback Loop
+
+All interactions are logged and analyzed to detect failure patterns and suggest improvements to the knowledge base or retrieval process.
+
+11. Evaluation & Performance Metrics
+
+The system measures metrics like retrieval accuracy, groundedness, hallucination rate, and response latency.
+
+12. Dashboard & Failure Analysis
+
+An analysis module identifies weak areas (e.g., missing documentation or poor retrieval) and recommends system improvements.
+
+✅ In short, this agentic system can understand issues, search knowledge, troubleshoot problems, take actions like creating tickets, and continuously improve using feedback.
+
+
 ### Components
 
 | Module | Path | Purpose |
