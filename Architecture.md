@@ -16,17 +16,17 @@ This system goes beyond a simple chatbot. It implements a **state-machine driven
 
 ## Key Features
 
-| Feature                   | Description |
-| **Agentic Orchestration** | LangGraph-style state machine with conditional routing across 7 graph nodes |
-| **Hybrid Search**         | TF-IDF cosine similarity (60%) + BM25 keyword matching (40%) for robust retrieval |
-| **Conditional Query Rewriting** | Automatically rewrites vague queries (e.g., "VPN broken" -> "How to troubleshoot VPN connectivity issues") |
-| **Retrieval Confidence Scoring** | Classifies retrieval quality as high/medium/low with tunable thresholds |
-| **Groundedness Evaluation** | LLM-based check with keyword fallback to verify responses are supported by documents |
-| **Safe Fallback Behavior** | Auto-escalates to support tickets when confidence is low + query is urgent |
-| **User Feedback Loop** | Thumbs up/down on every response, logged with full interaction telemetry |
-| **Failure Analysis Dashboard** | Real-time metrics, failure patterns, and AI-generated improvement recommendations |
-| **RAG Evaluation Pipeline** | Automated test suite measuring retrieval accuracy, intent accuracy, and groundedness rate |
-| **12-Document Knowledge Base** | Covers VPN, WiFi, Okta, Slack, Email, Passwords, Hardware, Software, Printers, Teams, OneDrive, Zoom |
+| Feature                                     | Description |
+| **Agentic Orchestration**                   | LangGraph-style state machine with conditional routing across 7 graph nodes |
+| **Hybrid Search**                           | TF-IDF cosine similarity (60%) + BM25 keyword matching (40%) for robust retrieval |
+| **Conditional Query Rewriting**             | Automatically rewrites vague queries (e.g., "VPN broken" -> "How to troubleshoot VPN connectivity issues") |
+| **Retrieval Confidence Scoring**            | Classifies retrieval quality as high/medium/low with tunable thresholds |
+| **Groundedness Evaluation**                 | LLM-based check with keyword fallback to verify responses are supported by documents |
+| **Safe Fallback Behavior**                  | Auto-escalates to support tickets when confidence is low + query is urgent |
+| **User Feedback Loop**                      | Thumbs up/down on every response, logged with full interaction telemetry |
+| **Failure Analysis Dashboard**              | Real-time metrics, failure patterns, and AI-generated improvement recommendations |
+| **RAG Evaluation Pipeline**                 | Automated test suite measuring retrieval accuracy, intent accuracy, and groundedness rate |
+| **12-Document Knowledge Base**              | Covers VPN, WiFi, Okta, Slack, Email, Passwords, Hardware, Software, Printers, Teams, OneDrive, Zoom |
 
 ---
 
