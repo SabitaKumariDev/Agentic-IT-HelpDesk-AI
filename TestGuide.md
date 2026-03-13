@@ -200,12 +200,13 @@ For each: verify the correct document appears in the Sources section.
 1. In the sidebar, click **"Feedback Analysis"**
 2. **Expected sections:**
 
-| Section                   | What you see |
-| **Metric Cards** (top)    | Total Interactions, Helpful Rate, Not Helpful Rate, Low Confidence %,                          Ungrounded %, Avg Latency |
-| **Secondary Stats**       | Queries Rewritten, Tickets Created, Helpful Responses, No Feedback Yet |
-| **Failure Breakdown**     | Failure by Intent + Failure by Category |
-| **Recommendations**       | Prioritized suggestions (e.g., "Increase retrieval top_k", "Implement hybrid retrieval") |
-| **Sample Failures**       | Individual failed queries with confidence, groundedness, feedback, and                          fix suggestions |
+| Section | What You See |
+|---|---|
+| Metric Cards (top) | Total Interactions, Helpful Rate, Not Helpful Rate, Low Confidence %, Ungrounded %, Avg Latency |
+| Secondary Stats | Queries Rewritten, Tickets Created, Helpful Responses, No Feedback Yet |
+| Failure Breakdown | Failure by Intent + Failure by Category |
+| Recommendations | Prioritized suggestions, such as "Increase retrieval top_k" and "Implement hybrid retrieval" |
+| Sample Failures | Individual failed queries with confidence, groundedness, feedback, and fix suggestions |
 
 3. Click **"Refresh"** to reload with latest data
 4. Click **"Back to Chat"** to return
