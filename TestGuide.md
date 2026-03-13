@@ -216,12 +216,13 @@ For each: verify the correct document appears in the Sources section.
 
 Try these and verify the correct intent:
 
-| Query                                     | Expected Intent   | Look for |
-| `How do I get access to Slack?`           | knowledge_search  | Slack access guide with sources |
-| `I forgot my password and I'm locked out` | troubleshooting   | Password reset steps + system check |
-| `How do I set up Outlook on my phone?`    | knowledge_search  | Email setup instructions |
-| `I need to install Visual Studio Code`    | knowledge_search  | Software installation guide |
-| `Create a ticket for broken keyboard`     | ticket_creation   | Ticket card with Hardware category |
+| Query | Expected Intent | Look For |
+|------|------|------|
+| How do I get access to Slack? | knowledge_search | Slack access guide with sources |
+| I forgot my password and I'm locked out | troubleshooting | Password reset steps + system check |
+| How do I set up Outlook on my phone? | knowledge_search | Email setup instructions |
+| I need to install Visual Studio Code | knowledge_search | Software installation guide |
+| Create a ticket for broken keyboard | ticket_creation | Ticket card with Hardware category |
 
 ---
 
